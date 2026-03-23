@@ -135,7 +135,7 @@ Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, de
 ## 🕹 Recent Activity
 
 <!--START_SECTION:activity-->
-<!-- auto-updated by GitHub Actions -->
+1. 🎉 Merged PR [#1](https://github.com/Abp0101/nexus-dashboard/pull/1) in [Abp0101/nexus-dashboard](https://github.com/Abp0101/nexus-dashboard)
 <!--END_SECTION:activity-->
 
 ---
