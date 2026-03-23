@@ -1,0 +1,24 @@
+name: Refresh Stats Cache
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  refresh-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Touch README to bust github-readme-stats cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Append and remove a blank line to force a new commit SHA
+          # which invalidates the Vercel CDN cache for stats cards
+          echo "" >> README.md
+          sed -i '$ d' README.md
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: daily stats cache refresh"
+          git push

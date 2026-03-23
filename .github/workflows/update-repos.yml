@@ -1,0 +1,66 @@
+name: Update Latest Repos
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest repos via GitHub API
+        id: repos
+        run: |
+          REPOS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/users/Abp0101/repos?sort=updated&per_page=5&type=public" \
+            | python3 -c "
+          import sys, json
+          repos = json.load(sys.stdin)
+          lines = []
+          for r in repos:
+              desc = r.get('description') or 'No description'
+              lang = r.get('language') or 'N/A'
+              stars = r.get('stargazers_count', 0)
+              url = r.get('html_url')
+              name = r.get('name')
+              lines.append(f'| [{name}]({url}) | {desc} | {lang} | ⭐ {stars} |')
+          print('\n'.join(lines))
+          ")
+          echo "REPO_ROWS<<EOF" >> $GITHUB_ENV
+          echo "$REPOS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Inject repos into README
+        run: |
+          TABLE="| Repo | Description | Language | Stars |\n| --- | --- | --- | --- |\n${{ env.REPO_ROWS }}"
+          python3 - <<'PYEOF'
+          import re, os
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          table = os.environ.get("REPO_ROWS", "")
+          header = "| Repo | Description | Language | Stars |\n| --- | --- | --- | --- |\n"
+          block = f"\n{header}{table}\n"
+
+          updated = re.sub(
+              r"(<!--START_SECTION:repos-->).*?(<!--END_SECTION:repos-->)",
+              rf"\1{block}\2",
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+          PYEOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update latest repos"
+          git push
