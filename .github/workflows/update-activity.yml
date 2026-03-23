@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update GitHub Activity
         uses: jamesgeorge007/github-activity-readme@master
@@ -20,3 +22,12 @@ jobs:
           MAX_LINES: 10
           GH_USERNAME: "Abp0101"
           TARGET_FILE: "README.md"
+          EMPTY_COMMIT_MSG: "false"
+
+      - name: Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update recent activity"
+          git push
