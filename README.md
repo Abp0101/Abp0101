@@ -132,21 +132,12 @@ Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, de
 
 ---
 
-## 🕹 Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/Abp0101/nexus-dashboard/pull/1) in [Abp0101/nexus-dashboard](https://github.com/Abp0101/nexus-dashboard)
-<!--END_SECTION:activity-->
-
----
-
 ## 🎓 Background
 
 - 🏫 **BEng Biomedical Engineering** — University of Kent *(Final Year)*
 - 🩺 Coursework spanning FMEA for autonomous systems, ISO 13485, MDR/FDA regulatory frameworks
 - 🏆 Hackathon participant on **Devpost**
 - 🤝 Mentee @ **Migrant Leaders**
-- 📚 NVIDIA Deep Learning certified (in progress)
 
 ---
 
