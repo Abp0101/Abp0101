@@ -123,7 +123,7 @@ Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, de
 <!--START_SECTION:repos-->
 | Repo | Description | Language | Stars |
 | --- | --- | --- | --- |
-| [chest-xray-ai](https://github.com/Abp0101/chest-xray-ai) | NIH Chest X-Ray 14 multi-label disease classifier — PyTorch, Apple Silicon (MPS) | Python | ⭐ 0 |
+| [chest-xray-ai](https://github.com/Abp0101/chest-xray-ai) | NIH Chest X-Ray 14 multi-label disease classifier — PyTorch, Apple Silicon (MPS) | Python | ⭐ 1 |
 | [Abp0101](https://github.com/Abp0101/Abp0101) | No description | N/A | ⭐ 0 |
 | [SiftAi](https://github.com/Abp0101/SiftAi) | No description | JavaScript | ⭐ 0 |
 | [WindowsAirdrop](https://github.com/Abp0101/WindowsAirdrop) | Airdrop like app but for windows  | Python | ⭐ 0 |
