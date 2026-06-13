@@ -123,11 +123,11 @@ Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, de
 <!--START_SECTION:repos-->
 | Repo | Description | Language | Stars |
 | --- | --- | --- | --- |
+| [mini-gpt](https://github.com/Abp0101/mini-gpt) | A small GPT-style decoder-only transformer language model built from scratch in PyTorch. | Python | ⭐ 0 |
 | [Abp0101](https://github.com/Abp0101/Abp0101) | No description | N/A | ⭐ 0 |
 | [chest-xray-ai](https://github.com/Abp0101/chest-xray-ai) | NIH Chest X-Ray 14 multi-label disease classifier — PyTorch, Apple Silicon (MPS) | Python | ⭐ 1 |
 | [SiftAi](https://github.com/Abp0101/SiftAi) | No description | JavaScript | ⭐ 0 |
 | [WindowsAirdrop](https://github.com/Abp0101/WindowsAirdrop) | Airdrop like app but for windows  | Python | ⭐ 0 |
-| [vigil](https://github.com/Abp0101/vigil) | An interactive 3D globe news explorer with AI-powered summaries | JavaScript | ⭐ 0 |
 <!--END_SECTION:repos-->
 
 ---
