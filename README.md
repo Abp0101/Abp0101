@@ -123,11 +123,11 @@ Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, de
 <!--START_SECTION:repos-->
 | Repo | Description | Language | Stars |
 | --- | --- | --- | --- |
+| [SiftAi](https://github.com/Abp0101/SiftAi) | No description | JavaScript | ⭐ 0 |
+| [Abp0101](https://github.com/Abp0101/Abp0101) | No description | N/A | ⭐ 0 |
 | [FlowLLM](https://github.com/Abp0101/FlowLLM) | AI-powered traffic light optimization using a locally-run LLM — beats fixed-cycle baseline by 14% | Python | ⭐ 0 |
 | [CommandBar](https://github.com/Abp0101/CommandBar) | No description | Swift | ⭐ 0 |
 | [mini-gpt](https://github.com/Abp0101/mini-gpt) | A small GPT-style decoder-only transformer language model built from scratch in PyTorch. | Python | ⭐ 0 |
-| [Abp0101](https://github.com/Abp0101/Abp0101) | No description | N/A | ⭐ 0 |
-| [chest-xray-ai](https://github.com/Abp0101/chest-xray-ai) | NIH Chest X-Ray 14 multi-label disease classifier — PyTorch, Apple Silicon (MPS) | Python | ⭐ 1 |
 <!--END_SECTION:repos-->
 
 ---
