@@ -48,7 +48,7 @@ Local-first feedback intelligence prototype built with Ollama, React, and Vite. 
 
 Windows 11 system dashboard built with WinUI 3, C#/.NET 8, LibreHardwareMonitor, OpenRGB, and MVVM. It focuses on clean desktop telemetry, hardware visibility, and native Windows application structure.
 
-### SmartKnee
+### [SmartKnee](https://github.com/Abp0101/SmartKneeRehabiliationDevice)
 
 Biomedical final-year wearable rehabilitation monitoring prototype using FSR pressure sensors, IMU motion data, signal processing, sensor fusion, Arduino, Kotlin, and mobile interaction for knee rehabilitation tracking.
 
