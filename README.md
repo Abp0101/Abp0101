@@ -60,8 +60,6 @@ Traffic signal optimisation prototype that tests whether a local LLM can make us
 
 **Result:** Prototype showed **14% lower average wait time** versus the fixed-cycle baseline.
 
-<!-- TODO: Add a FlowLLM simulation or dashboard screenshot/GIF once one is committed to the repository. -->
-
 ### [Sift AI](https://github.com/Abp0101/SiftAi)
 
 Local-first feedback intelligence prototype for turning product feedback prompts into structured insight outputs. I built the React/Vite interface, Ollama integration, model selection flow, structured JSON parsing/export, and documented the roadmap for retrieval, citations, and verification.
@@ -69,8 +67,6 @@ Local-first feedback intelligence prototype for turning product feedback prompts
 **Tech:** React · Vite · Ollama · local LLMs · structured JSON export · CSS Modules
 
 **Result:** Working local prototype with JSON export; retrieval, citations, and claim verification are documented as planned work.
-
-<!-- TODO: Add a Sift AI dashboard screenshot once a product screenshot is committed to the repository. -->
 
 ### [NEXUS Dashboard](https://github.com/Abp0101/nexus-dashboard)
 
@@ -80,8 +76,6 @@ Native Windows 11 system dashboard for desktop telemetry and device visibility. 
 
 **Result:** Native dashboard prototype with modular telemetry, RGB, weather, and Bluetooth service layers.
 
-<!-- TODO: Add a NEXUS dashboard screenshot once a UI screenshot is committed to the repository. -->
-
 ### [SmartKnee](https://github.com/Abp0101/SmartKneeRehabiliationDevice)
 
 Wearable rehabilitation monitoring prototype for tracking knee load and motion during recovery exercises. I built the sensor concept around FSR pressure readings, IMU motion data, signal processing, sensor fusion, Arduino firmware, Kotlin/mobile interaction, and real-time feedback states.
@@ -89,8 +83,6 @@ Wearable rehabilitation monitoring prototype for tracking knee load and motion d
 **Tech:** Arduino · FSR pressure sensors · MPU6050 IMU · signal processing · sensor fusion · Kotlin · mobile interaction
 
 **Result:** Final-year biomedical prototype integrating pressure, motion, feedback, and session-logging concepts for knee rehabilitation monitoring.
-
-<!-- TODO: Add the SmartKnee sensor/demo image once the repository is public and the image URL resolves for non-authenticated visitors. -->
 
 ---
 
