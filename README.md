@@ -1,150 +1,91 @@
 <div align="center">
 
-<!-- Typing SVG Header -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Abdullah+%E2%80%94+Abs.;Biomedical+Engineer+%C3%97+AI+Builder.;I+ship+things+that+matter.)](https://git.io/typing-svg)
+# Abdullah Saeed
 
-<br/>
+### AI/ML Engineer · Biomedical Engineering Graduate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A0E1A?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://linkedin.com/in/abdullahsaeedpage)
-[![Email](https://img.shields.io/badge/Email-0A0E1A?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:Abdullah627268@gmail.com)
+London-focused graduate AI/ML engineering and software engineering candidate building practical machine learning systems, LLM prototypes, and biomedical technology.
 
-</div>
-
----
-
-## ⚡ About Me
-
-```python
-abs = {
-    "degree":    "BEng Biomedical Engineering @ University of Kent (Final Year)",
-    "focus":     ["AI/ML Engineering", "Full-Stack Dev", "Biomedical Tech"],
-    "building":  ["autonomous agents", "3D web experiences", "hardware-software systems"],
-    "aesthetic": "dark. minimal. functional.",
-    "status":    "open to grad roles — let's build something meaningful",
-}
-```
-
----
-
-## 🛠 Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0A0E1A?style=flat-square&logo=python&logoColor=00F5FF)
-![C#](https://img.shields.io/badge/C%23-0A0E1A?style=flat-square&logo=csharp&logoColor=9B59B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0A0E1A?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Kotlin](https://img.shields.io/badge/Kotlin-0A0E1A?style=flat-square&logo=kotlin&logoColor=7F52FF)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-0A0E1A?style=flat-square&logo=html5&logoColor=E34F26)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0A0E1A?style=flat-square&logo=pytorch&logoColor=EE4C2C)
-![Ollama](https://img.shields.io/badge/Ollama-0A0E1A?style=flat-square&logo=ollama&logoColor=00F5FF)
-![Gemini](https://img.shields.io/badge/Gemini_API-0A0E1A?style=flat-square&logo=google&logoColor=4285F4)
-![Claude](https://img.shields.io/badge/Claude_API-0A0E1A?style=flat-square&logo=anthropic&logoColor=D4A574)
-
-**Frontend / 3D**
-
-![Three.js](https://img.shields.io/badge/Three.js-0A0E1A?style=flat-square&logo=threedotjs&logoColor=ffffff)
-![GSAP](https://img.shields.io/badge/GSAP-0A0E1A?style=flat-square&logo=greensock&logoColor=88CE02)
-![React](https://img.shields.io/badge/React-0A0E1A?style=flat-square&logo=react&logoColor=61DAFB)
-![WinUI 3](https://img.shields.io/badge/WinUI_3-0A0E1A?style=flat-square&logo=windows&logoColor=0078D4)
-
-**Backend / Infra**
-
-![Flask](https://img.shields.io/badge/Flask-0A0E1A?style=flat-square&logo=flask&logoColor=ffffff)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-0A0E1A?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-0A0E1A?style=flat-square&logo=docker&logoColor=2496ED)
-![Arduino](https://img.shields.io/badge/Arduino-0A0E1A?style=flat-square&logo=arduino&logoColor=00979D)
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🖥 NEXUS
-**Windows system monitoring dashboard**
-Built with WinUI 3 / C#, featuring glassmorphism UI, real-time hardware telemetry via LibreHardwareMonitor, OpenRGB SDK integration, and a custom GPU/CPU overlay.
-
-`C#` `WinUI 3` `OpenRGB` `LibreHardwareMonitor`
-
-</td>
-<td width="50%">
-
-### 🌍 VIGIL
-**3D globe news intelligence explorer**
-Three.js interactive globe with Flask backend, NewsData.io feeds, local Llama 3.1 via Ollama for AI summarisation, and geopolitical filter overlays — CRT terminal aesthetic.
-
-`Three.js` `Flask` `Llama 3.1` `Ollama`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🚦 FlowLLM
-**LLM-driven traffic light optimisation**
-Uses SUMO traffic simulation with an LLM decision layer to dynamically optimise signal timing — demonstrably outperforming fixed-cycle baselines.
-
-`Python` `SUMO` `LLM` `Reinforcement Logic`
-
-</td>
-<td width="50%">
-
-### 🦵 SmartKnee
-**Wearable knee pressure monitor**
-Arduino-based pressure sensor array paired with a Kotlin Android app via BLE, designed for post-op rehabilitation monitoring and biomechanical data logging.
-
-`Arduino` `Kotlin` `BLE` `Android`
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abp0101&show_icons=true&theme=github_dark&bg_color=0A0E1A&border_color=00F5FF&icon_color=00F5FF&title_color=00F5FF&text_color=C9D1D9&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abp0101&layout=compact&theme=github_dark&bg_color=0A0E1A&border_color=00F5FF&title_color=00F5FF&text_color=C9D1D9)
+[LinkedIn](https://linkedin.com/in/abdullahsaeedpage) · [Email](mailto:Abdullah627268@gmail.com) · [GitHub](https://github.com/Abp0101)
 
 </div>
 
 ---
 
-## 📌 Latest Repos
+## About
 
-<!--START_SECTION:repos-->
-| Repo | Description | Language | Stars |
-| --- | --- | --- | --- |
-| [Abp0101](https://github.com/Abp0101/Abp0101) | No description | N/A | ⭐ 0 |
-| [SiftAi](https://github.com/Abp0101/SiftAi) | No description | JavaScript | ⭐ 0 |
-| [FlowLLM](https://github.com/Abp0101/FlowLLM) | AI-powered traffic light optimization using a locally-run LLM — beats fixed-cycle baseline by 14% | Python | ⭐ 0 |
-| [CommandBar](https://github.com/Abp0101/CommandBar) | No description | Swift | ⭐ 0 |
-| [mini-gpt](https://github.com/Abp0101/mini-gpt) | A small GPT-style decoder-only transformer language model built from scratch in PyTorch. | Python | ⭐ 0 |
-<!--END_SECTION:repos-->
+I am a Biomedical Engineering graduate focused on applied AI, machine learning, and software engineering. My work sits at the intersection of model development, product-minded prototyping, and engineering systems that turn data into useful decisions.
+
+I am currently seeking graduate AI/ML engineering and software engineering roles in London, with a particular interest in medical AI, LLM systems, intelligent agents, and full-stack tools for technical users.
 
 ---
 
-## 🎓 Background
+## Featured Projects
 
-- 🏫 **BEng Biomedical Engineering** — University of Kent *(Final Year)*
-- 🩺 Coursework spanning FMEA for autonomous systems, ISO 13485, MDR/FDA regulatory frameworks
-- 🏆 Hackathon participant on **Devpost**
-- 🤝 Mentee @ **Migrant Leaders**
+### [Chest X-Ray AI](https://github.com/Abp0101/chest-xray-ai)
+
+Medical imaging classification project using DenseNet-121 on the NIH ChestX-ray14 dataset across 14 disease labels. The pipeline includes patient-level train/validation/test splitting, class imbalance handling, AUC-ROC evaluation, and Grad-CAM visualisation for model interpretability.
+
+**Result:** Mean AUC-ROC of **0.7851**.
+
+### [MiniGPT](https://github.com/Abp0101/mini-gpt)
+
+GPT-style decoder-only transformer built from scratch in PyTorch, including causal self-attention, multi-head attention, fused QKV projection, GPT weight tying, and a Streamlit interface for interactive text generation.
+
+**Result:** Validation loss improved from **4.2369** to **1.6748**.
+
+### [FlowLLM](https://github.com/Abp0101/FlowLLM)
+
+LLM-driven traffic light optimisation agent using SUMO, TraCI, and a local Llama 3.1 model through Ollama. The prototype compares adaptive signal decisions against a fixed-cycle baseline in simulation.
+
+**Result:** Prototype showed **14% lower average wait time**.
+
+### [Sift AI](https://github.com/Abp0101/SiftAi)
+
+Local-first feedback intelligence prototype built with Ollama, React, and Vite. It converts user feedback into structured insight outputs with JSON export, with a roadmap for retrieval, citations, and verification workflows.
+
+### [NEXUS Dashboard](https://github.com/Abp0101/nexus-dashboard)
+
+Windows 11 system dashboard built with WinUI 3, C#/.NET 8, LibreHardwareMonitor, OpenRGB, and MVVM. It focuses on clean desktop telemetry, hardware visibility, and native Windows application structure.
+
+### SmartKnee
+
+Biomedical final-year wearable rehabilitation monitoring prototype using FSR pressure sensors, IMU motion data, signal processing, sensor fusion, Arduino, Kotlin, and mobile interaction for knee rehabilitation tracking.
+
+---
+
+## Technical Focus
+
+- **Machine learning:** PyTorch, computer vision, model evaluation, class imbalance handling, AUC-ROC, interpretability.
+- **LLM systems:** local LLMs, Ollama, agent prototypes, structured outputs, retrieval-oriented product design.
+- **Software engineering:** Python, C#, JavaScript/TypeScript, React, Vite, Streamlit, .NET 8, WinUI 3.
+- **Simulation and data:** SUMO, TraCI, experiment baselines, metric-driven comparison, signal processing.
+- **Biomedical technology:** wearable sensing, FSR sensors, IMU data, Arduino, Kotlin mobile workflows, sensor fusion.
+
+---
+
+## What I'm Building Towards
+
+I am working towards becoming an AI/ML engineer who can move confidently from research ideas to production-minded prototypes: defining the problem, building the model or system, evaluating it with clear metrics, and presenting the result in a way that is useful to real users.
+
+My current focus is strengthening my applied ML portfolio, improving the reliability of local LLM systems, and building tools that connect AI with healthcare, infrastructure, and developer workflows.
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abp0101&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=E6EDF3&text_color=CBD5E1&icon_color=8B949E)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abp0101&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=E6EDF3&text_color=CBD5E1)
+
+</div>
 
 ---
 
 <div align="center">
 
-*"Build things that work. Make them look good. Ship."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=Abp0101&color=00F5FF&style=flat-square&label=PROFILE+VIEWS)
+Building practical AI systems with clean engineering, clear evaluation, and real-world intent.
 
 </div>
