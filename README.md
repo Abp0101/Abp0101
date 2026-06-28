@@ -6,6 +6,8 @@
 
 London-focused graduate AI/ML engineering and software engineering candidate building practical machine learning systems, LLM prototypes, and biomedical technology.
 
+<sub>Computer vision · LLM systems · simulation · biomedical sensing · full-stack AI tools</sub>
+
 [LinkedIn](https://linkedin.com/in/abdullahsaeedpage) · [Email](mailto:Abdullah627268@gmail.com) · [GitHub](https://github.com/Abp0101)
 
 </div>
@@ -14,43 +16,81 @@ London-focused graduate AI/ML engineering and software engineering candidate bui
 
 ## About
 
-I am a Biomedical Engineering graduate focused on applied AI, machine learning, and software engineering. My work sits at the intersection of model development, product-minded prototyping, and engineering systems that turn data into useful decisions.
+I am a Biomedical Engineering graduate focused on applied AI, machine learning, and software engineering.
 
-I am currently seeking graduate AI/ML engineering and software engineering roles in London, with a particular interest in medical AI, LLM systems, intelligent agents, and full-stack tools for technical users.
+My strongest work is in **computer vision**, **LLM systems**, **simulation-driven evaluation**, and **biomedical sensing**. I like building projects that have clear inputs, measurable outputs, and enough engineering detail for another developer to inspect, run, and extend.
+
+I am currently seeking graduate AI/ML engineering and software engineering roles in London, with a particular interest in medical AI, local LLM systems, intelligent agents, and full-stack tools for technical users.
 
 ---
 
 ## Featured Projects
 
+Selected projects with clear engineering scope, evaluation, and implementation detail.
+
 ### [Chest X-Ray AI](https://github.com/Abp0101/chest-xray-ai)
 
-Medical imaging classification project using DenseNet-121 on the NIH ChestX-ray14 dataset across 14 disease labels. The pipeline includes patient-level train/validation/test splitting, class imbalance handling, AUC-ROC evaluation, and Grad-CAM visualisation for model interpretability.
+Multi-label medical imaging classifier for thoracic disease detection on NIH ChestX-ray14. I built the full training and evaluation pipeline: patient-level splitting to reduce leakage risk, DenseNet-121 fine-tuning, class imbalance handling, AUC-ROC evaluation, and Grad-CAM model inspection.
 
-**Result:** Mean AUC-ROC of **0.7851**.
+**Tech:** PyTorch · DenseNet-121 · NIH ChestX-ray14 · BCEWithLogitsLoss · AUC-ROC · Grad-CAM · Gradio
+
+**Result:** **0.7851 mean AUC-ROC** across 14 disease labels on the NIH test split.
+
+<img src="https://raw.githubusercontent.com/Abp0101/chest-xray-ai/main/outputs/figures/gradcam_1_00018253_087.png" alt="Chest X-Ray AI Grad-CAM example" width="720">
+
+<br>
 
 ### [MiniGPT](https://github.com/Abp0101/mini-gpt)
 
-GPT-style decoder-only transformer built from scratch in PyTorch, including causal self-attention, multi-head attention, fused QKV projection, GPT weight tying, and a Streamlit interface for interactive text generation.
+Small decoder-only transformer built from scratch to demonstrate how GPT-style language models work internally. I implemented causal self-attention, multi-head attention, fused QKV projection, GPT weight tying, checkpointing, generation controls, and a Streamlit interface.
 
-**Result:** Validation loss improved from **4.2369** to **1.6748**.
+**Tech:** PyTorch · decoder-only transformer · causal attention · fused QKV · weight tying · Streamlit
+
+**Result:** Validation loss improved from **4.2369** to **1.6748** over a 3,000-step Tiny Shakespeare training run.
+
+<img src="https://raw.githubusercontent.com/Abp0101/mini-gpt/main/assets/loss_curve.png" alt="MiniGPT training and validation loss curve" width="620">
+
+<br>
 
 ### [FlowLLM](https://github.com/Abp0101/FlowLLM)
 
-LLM-driven traffic light optimisation agent using SUMO, TraCI, and a local Llama 3.1 model through Ollama. The prototype compares adaptive signal decisions against a fixed-cycle baseline in simulation.
+Traffic signal optimisation prototype that tests whether a local LLM can make useful phase-switching decisions from live simulation state. I built the SUMO intersection, TraCI controller loop, local Llama 3.1 decision layer through Ollama, and fixed-cycle baseline comparison.
 
-**Result:** Prototype showed **14% lower average wait time**.
+**Tech:** Python · SUMO · TraCI · Ollama · Llama 3.1 · Streamlit · Pandas
+
+**Result:** Prototype showed **14% lower average wait time** versus the fixed-cycle baseline.
+
+<!-- TODO: Add a FlowLLM simulation or dashboard screenshot/GIF once one is committed to the repository. -->
 
 ### [Sift AI](https://github.com/Abp0101/SiftAi)
 
-Local-first feedback intelligence prototype built with Ollama, React, and Vite. It converts user feedback into structured insight outputs with JSON export, with a roadmap for retrieval, citations, and verification workflows.
+Local-first feedback intelligence prototype for turning product feedback prompts into structured insight outputs. I built the React/Vite interface, Ollama integration, model selection flow, structured JSON parsing/export, and documented the roadmap for retrieval, citations, and verification.
+
+**Tech:** React · Vite · Ollama · local LLMs · structured JSON export · CSS Modules
+
+**Result:** Working local prototype with JSON export; retrieval, citations, and claim verification are documented as planned work.
+
+<!-- TODO: Add a Sift AI dashboard screenshot once a product screenshot is committed to the repository. -->
 
 ### [NEXUS Dashboard](https://github.com/Abp0101/nexus-dashboard)
 
-Windows 11 system dashboard built with WinUI 3, C#/.NET 8, LibreHardwareMonitor, OpenRGB, and MVVM. It focuses on clean desktop telemetry, hardware visibility, and native Windows application structure.
+Native Windows 11 system dashboard for desktop telemetry and device visibility. I built the WinUI 3/.NET application structure around MVVM, with services for hardware metrics, RGB control, weather data, and Bluetooth device information.
+
+**Tech:** C# · .NET 8 · WinUI 3 · MVVM · LibreHardwareMonitor · OpenRGB · WinRT
+
+**Result:** Native dashboard prototype with modular telemetry, RGB, weather, and Bluetooth service layers.
+
+<!-- TODO: Add a NEXUS dashboard screenshot once a UI screenshot is committed to the repository. -->
 
 ### [SmartKnee](https://github.com/Abp0101/SmartKneeRehabiliationDevice)
 
-Biomedical final-year wearable rehabilitation monitoring prototype using FSR pressure sensors, IMU motion data, signal processing, sensor fusion, Arduino, Kotlin, and mobile interaction for knee rehabilitation tracking.
+Wearable rehabilitation monitoring prototype for tracking knee load and motion during recovery exercises. I built the sensor concept around FSR pressure readings, IMU motion data, signal processing, sensor fusion, Arduino firmware, Kotlin/mobile interaction, and real-time feedback states.
+
+**Tech:** Arduino · FSR pressure sensors · MPU6050 IMU · signal processing · sensor fusion · Kotlin · mobile interaction
+
+**Result:** Final-year biomedical prototype integrating pressure, motion, feedback, and session-logging concepts for knee rehabilitation monitoring.
+
+<!-- TODO: Add the SmartKnee sensor/demo image once the repository is public and the image URL resolves for non-authenticated visitors. -->
 
 ---
 
@@ -66,7 +106,7 @@ Biomedical final-year wearable rehabilitation monitoring prototype using FSR pre
 
 ## What I'm Building Towards
 
-I am working towards becoming an AI/ML engineer who can move confidently from research ideas to production-minded prototypes: defining the problem, building the model or system, evaluating it with clear metrics, and presenting the result in a way that is useful to real users.
+I am working towards becoming an AI/ML engineer who can move confidently from research ideas to production-minded prototypes: define the problem, build the model or system, evaluate it with clear metrics, and present the result in a way that is useful to real users.
 
 My current focus is strengthening my applied ML portfolio, improving the reliability of local LLM systems, and building tools that connect AI with healthcare, infrastructure, and developer workflows.
 
