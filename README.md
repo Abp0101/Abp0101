@@ -4,7 +4,7 @@
 
 ### AI/ML Engineer · Biomedical Engineering Graduate
 
-London-focused graduate AI/ML engineering and software engineering candidate building practical machine learning systems, LLM prototypes, and biomedical technology.
+Building practical, evaluated AI/ML systems across computer vision, retrieval, local agents, simulation, and biomedical sensing.
 
 <sub>Computer vision · LLM systems · simulation · biomedical sensing · full-stack AI tools</sub>
 
@@ -18,7 +18,7 @@ London-focused graduate AI/ML engineering and software engineering candidate bui
 
 I am a Biomedical Engineering graduate focused on applied AI, machine learning, and software engineering.
 
-My strongest work is in **computer vision**, **LLM systems**, **simulation-driven evaluation**, and **biomedical sensing**. I like building projects that have clear inputs, measurable outputs, and enough engineering detail for another developer to inspect, run, and extend.
+My strongest work is in **computer vision**, **retrieval-augmented generation**, **local agent systems**, **simulation-driven evaluation**, and **biomedical sensing**. I build projects with clear inputs, measurable outputs, and enough engineering detail for another developer to inspect, run, and extend.
 
 I am currently seeking graduate AI/ML engineering and software engineering roles in London, with a particular interest in medical AI, local LLM systems, intelligent agents, and full-stack tools for technical users.
 
@@ -26,7 +26,15 @@ I am currently seeking graduate AI/ML engineering and software engineering roles
 
 ## Featured Projects
 
-Selected projects with clear engineering scope, evaluation, and implementation detail.
+A curated selection of my strongest work, not a complete repository list. [Browse all public repositories](https://github.com/Abp0101?tab=repositories) for the rest of my projects and experiments.
+
+### [RAGLab](https://github.com/Abp0101/raglab)
+
+Multi-framework platform for implementing and fairly benchmarking retrieval-augmented generation pipelines across custom Python, LangChain, LangGraph, LlamaIndex, and Haystack. I built persistent ingestion, dense/BM25/hybrid retrieval, reranking, grounded generation with citation checks, a typed FastAPI service, deterministic evaluation, and a Next.js evidence workbench.
+
+**Tech:** Python · FastAPI · Next.js · PostgreSQL · Qdrant · Redis · Ollama · LangChain · LangGraph · LlamaIndex · Haystack
+
+**Result:** End-to-end local RAG platform with five executable pipelines, reproducible cross-framework reports, strict quality gates, and a zero-paid-API default path.
 
 ### [Chest X-Ray AI](https://github.com/Abp0101/chest-xray-ai)
 
@@ -58,49 +66,33 @@ Traffic signal optimisation prototype that tests whether a local LLM can make us
 
 **Tech:** Python · SUMO · TraCI · Ollama · Llama 3.1 · Streamlit · Pandas
 
-**Result:** Prototype showed **14% lower average wait time** versus the fixed-cycle baseline.
+**Result:** In the current saved 600-step simulation configuration, the prototype produced **14% lower average wait time** than the fixed-cycle baseline. This is a prototype result, not a real-world traffic claim.
 
-### [Sift AI](https://github.com/Abp0101/SiftAi)
+### [CommandBar](https://github.com/Abp0101/CommandBar)
 
-Local-first feedback intelligence prototype for turning product feedback prompts into structured insight outputs. I built the React/Vite interface, Ollama integration, model selection flow, structured JSON parsing/export, and documented the roadmap for retrieval, citations, and verification.
+Local-first macOS AI command bar that answers questions and executes bounded native actions. I built intent classification, multi-step planning, human confirmation, formal execution-state tracking, saved workflows, and native tool handlers controlled by deterministic Swift code.
 
-**Tech:** React · Vite · Ollama · local LLMs · structured JSON export · CSS Modules
+**Tech:** Swift · SwiftUI · AppKit · Ollama · AppleScript · local LLMs · human-in-the-loop agents
 
-**Result:** Working local prototype with JSON export; retrieval, citations, and claim verification are documented as planned work.
+**Result:** Working macOS prototype with streamed answers, bounded tool execution, confirmation for generated plans, and reusable workflows.
 
-### [NEXUS Dashboard](https://github.com/Abp0101/nexus-dashboard)
-
-Native Windows 11 system dashboard for desktop telemetry and device visibility. I built the WinUI 3/.NET application structure around MVVM, with services for hardware metrics, RGB control, weather data, and Bluetooth device information.
-
-**Tech:** C# · .NET 8 · WinUI 3 · MVVM · LibreHardwareMonitor · OpenRGB · WinRT
-
-**Result:** Native dashboard prototype with modular telemetry, RGB, weather, and Bluetooth service layers.
-
-### [SmartKnee](https://github.com/Abp0101/SmartKneeRehabiliationDevice)
+### SmartKnee — Private academic project
 
 Wearable rehabilitation monitoring prototype for tracking knee load and motion during recovery exercises. I built the sensor concept around FSR pressure readings, IMU motion data, signal processing, sensor fusion, Arduino firmware, Kotlin/mobile interaction, and real-time feedback states.
 
-**Tech:** Arduino · FSR pressure sensors · MPU6050 IMU · signal processing · sensor fusion · Kotlin · mobile interaction
+**Tech:** Arduino · FSR pressure sensors · MPU6050 IMU · signal processing · sensor fusion · Kotlin · Bluetooth LE
 
-**Result:** Final-year biomedical prototype integrating pressure, motion, feedback, and session-logging concepts for knee rehabilitation monitoring.
+**Result:** Final-year biomedical capstone integrating pressure, motion, accessible multimodal feedback, and session-logging concepts for knee rehabilitation monitoring. The academic repository remains private, so this entry is intentionally not linked.
 
 ---
 
 ## Technical Focus
 
 - **Machine learning:** PyTorch, computer vision, model evaluation, class imbalance handling, AUC-ROC, interpretability.
-- **LLM systems:** local LLMs, Ollama, agent prototypes, structured outputs, retrieval-oriented product design.
-- **Software engineering:** Python, C#, JavaScript/TypeScript, React, Vite, Streamlit, .NET 8, WinUI 3.
+- **RAG and LLM systems:** multi-framework retrieval, dense/sparse/hybrid search, reranking, citation validation, local LLMs, structured outputs, and agent workflows.
+- **Software engineering:** Python, Swift, C#, JavaScript/TypeScript, FastAPI, React, Next.js, Streamlit, .NET 8, and WinUI 3.
 - **Simulation and data:** SUMO, TraCI, experiment baselines, metric-driven comparison, signal processing.
 - **Biomedical technology:** wearable sensing, FSR sensors, IMU data, Arduino, Kotlin mobile workflows, sensor fusion.
-
----
-
-## What I'm Building Towards
-
-I am working towards becoming an AI/ML engineer who can move confidently from research ideas to production-minded prototypes: define the problem, build the model or system, evaluate it with clear metrics, and present the result in a way that is useful to real users.
-
-My current focus is strengthening my applied ML portfolio, improving the reliability of local LLM systems, and building tools that connect AI with healthcare, infrastructure, and developer workflows.
 
 ---
 
